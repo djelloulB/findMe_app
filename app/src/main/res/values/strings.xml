@@ -1,0 +1,6 @@
+<resources>
+    <string name="app_name">Retrouvez moi</string>
+    <string name="civility_mrs">Mme</string>
+    <string name="civility_mr">Mr</string>
+    <string name="post_created_successfully">Annonce crée</string>
+</resources>
