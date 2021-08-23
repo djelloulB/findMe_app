@@ -56,6 +56,16 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/description_input" />
 
+    <ImageView
+        android:id="@+id/imageViewPicture"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/adress_input"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/pictures_add_btn"
+        app:layout_constraintTop_toBottomOf="@+id/description_input"
+        tools:srcCompat="@tools:sample/avatars" />
+
     <com.google.android.material.textfield.TextInputLayout
         android:id="@+id/adress_input"
         android:layout_width="385dp"

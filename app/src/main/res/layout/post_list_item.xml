@@ -23,13 +23,13 @@
         app:layout_constraintTop_toBottomOf="@+id/title">
 
         <ImageView
-            android:id="@+id/icon"
-            android:layout_width="wrap_content"
+            android:id="@+id/post_list_iv_picture"
+            android:layout_width="0dp"
             android:layout_height="wrap_content"
-            android:layout_marginStart="8dp"
-            android:layout_marginTop="10dp"
             android:padding="4dp"
             android:src="@drawable/ic_launcher_foreground"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toStartOf="@+id/card_description"
             app:layout_constraintStart_toStartOf="parent"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_conversion_absoluteHeight="64dp"
@@ -45,7 +45,7 @@
             android:textSize="16dp"
             android:textStyle="bold"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/icon"
+            app:layout_constraintStart_toEndOf="@+id/post_list_iv_picture"
             app:layout_constraintTop_toTopOf="parent"
             tools:layout_conversion_absoluteHeight="22dp"
             tools:layout_conversion_absoluteWidth="0dp">
@@ -58,7 +58,7 @@
             android:layout_height="0dp"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
-            app:layout_constraintStart_toEndOf="@+id/icon"
+            app:layout_constraintStart_toEndOf="@+id/post_list_iv_picture"
             app:layout_constraintTop_toBottomOf="@+id/title"
             tools:layout_conversion_absoluteHeight="19dp"
             tools:layout_conversion_absoluteWidth="0dp" />

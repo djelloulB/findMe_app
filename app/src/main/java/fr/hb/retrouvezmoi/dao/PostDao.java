@@ -26,6 +26,7 @@ public final class PostDao {
                 "60 rue priol et laporte, Fréjus 83600",
                 "sauvageboris.pro@gmail.com",
                 "0680883962"
+
         )
         );
     }
